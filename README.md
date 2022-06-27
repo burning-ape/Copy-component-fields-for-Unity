@@ -1,2 +1,4 @@
 # Copy-component-fields-for-Unity
-Copies all the fields of one component to another with the same type.
+**GetCopyOf method should be called on component you want to copy fields into and component you want to copy should be passed as argument.**
+
+newCollider.GetCopyOf(oldCollider);
